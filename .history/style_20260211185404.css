@@ -331,18 +331,10 @@ background: linear-gradient(120deg, var(--pink), var(--blue));  color: white;
     width: 90%;
   }
 
-.hero-title {
-  font-size: 1.6rem;
-  white-space: nowrap;   /* impede quebra */
-  margin-bottom: 20px;
-
-}
-
-.hero-text p {
-  margin-top: 24px;
-}
-
-
+  .hero-title {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
 
 
   .section {

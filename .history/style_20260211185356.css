@@ -332,17 +332,9 @@ background: linear-gradient(120deg, var(--pink), var(--blue));  color: white;
   }
 
 .hero-title {
-  font-size: 1.6rem;
-  white-space: nowrap;   /* impede quebra */
-  margin-bottom: 20px;
-
+  font-size: 2rem;
+  line-height: 1.1;
 }
-
-.hero-text p {
-  margin-top: 24px;
-}
-
-
 
 
   .section {
