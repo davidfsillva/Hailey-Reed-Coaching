@@ -377,9 +377,9 @@ body {
     margin-bottom: 20px;
     display: flex;
     justify-content: center; /* centraliza horizontalmente */
-    gap: 8px; /* espaçamento entre as palavras */
+    gap: 5px; /* espaçamento entre as palavras */
     flex-wrap: nowrap; /* força tudo na mesma linha */
-    line-height: 1; /* ajusta a altura */
+    line-height: 1.2; /* ajusta a altura */
   }
 
     /* remove efeito do <br> só visualmente */

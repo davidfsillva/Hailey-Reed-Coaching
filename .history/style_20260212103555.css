@@ -372,21 +372,21 @@ body {
     top: 50%;              /* desce um pouco a imagem */
   }
 
- .hero-title {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+@media (max-width: 768px) {
+  .hero-title {
     display: flex;
     justify-content: center; /* centraliza horizontalmente */
     gap: 8px; /* espaçamento entre as palavras */
     flex-wrap: nowrap; /* força tudo na mesma linha */
-    line-height: 1; /* ajusta a altura */
+    line-height: 1.2; /* ajusta a altura */
   }
 
-    /* remove efeito do <br> só visualmente */
+  /* remove efeito do <br> só visualmente */
   .hero-title br {
     display: none;
   }
-
+}
+ 
 
   .hero-text {
     height: auto;          /* remove os 85vh */
