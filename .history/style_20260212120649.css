@@ -433,7 +433,7 @@ body {
   }
 
   .whatsapp-btn {
-    margin-top: 210px;
+    margin-top: 10px;
     position: absolute;       /* permite mover livremente */
     transform: translateX(-50%); /* centraliza exatamente */
     z-index: 6;               /* acima de imagens e cards */
