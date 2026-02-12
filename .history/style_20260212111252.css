@@ -402,10 +402,11 @@ body {
 
   /* Apenas o botão do HERO */
   .hero-cta {
-    position: relative;
-    transform: none;
-    z-index: 6;
-    justify-content: center;
+    position: absolute;
+    padding-bottom: 1px; /* distância do card */
+    transform: translateX(-50%);
+    z-index: 6; /* acima de gradiente e card */
+    width: auto; /* mantém o tamanho do botão */
   }
 
   .hero-content {

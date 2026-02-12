@@ -402,6 +402,8 @@ body {
 
   /* Apenas o botão do HERO */
   .hero-cta {
+    margin-top: 24px; /* ajusta a distância do texto acima */
+
     position: relative;
     transform: none;
     z-index: 6;

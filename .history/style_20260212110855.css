@@ -416,7 +416,7 @@ body {
     gap: 24px; /* espaço entre título, botão e card */
     z-index: 5;
     position: relative;
-  }
+    }
 
 
   /* Botões de contato / final */

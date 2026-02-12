@@ -401,12 +401,14 @@ body {
   }
 
   /* Apenas o botão do HERO */
-  .hero-cta {
-    position: relative;
-    transform: none;
-    z-index: 6;
-    justify-content: center;
-  }
+.hero-cta {
+  position: absolute;       /* faz o botão flutuar sobre a imagem */
+  top: 65%;                 /* ajusta a altura para a área demarcada */
+  left: 50%;                /* centraliza horizontalmente */
+  transform: translateX(-50%);
+  z-index: 6;               /* acima do gradiente e do card */
+  width: auto;              /* mantém o tamanho natural do botão */
+}
 
   .hero-content {
     display: flex;
