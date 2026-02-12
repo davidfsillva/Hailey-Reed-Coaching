@@ -114,16 +114,16 @@ body {
 }
 
 .whatsapp-btn {
-  background: linear-gradient(120deg, var(--pink), var(--blue)) ;
   color: var(--light) !important;
 }
 
 .whatsapp-btn:hover {
-  background: linear-gradient(120deg, var(--pink), var(--blue)) !important;  
+  background: white;
   color: var(--dark);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.884);
   transform: translateY(-4px) !important;
-  background-size: 200% 200%;
+
+
 
 }
 
