@@ -404,8 +404,8 @@ body {
   .hero-cta {
     position: relative;
     transform: none;
-    z-index: 6;
     justify-content: center;
+    width: 100%;
   }
 
   .hero-content {
@@ -433,10 +433,11 @@ body {
   }
 
   .whatsapp-btn {
-    margin-top: 560px;
-    position: absolute;       /* permite mover livremente */
-    transform: translateX(-50%); /* centraliza exatamente */
-    z-index: 6;               /* acima de imagens e cards */
+    position: relative; /* não absoluto */
+    margin-top: 0;      /* remove margem fixa */
+    transform: none;
+    width: 90%;         /* opcional, para ocupar quase toda a tela */
+    max-width: 320px;
   }
 }
 
