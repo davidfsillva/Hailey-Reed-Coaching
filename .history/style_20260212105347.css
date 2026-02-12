@@ -341,19 +341,20 @@ body {
 
   .nav-links {
     display: flex;
-    gap: 30px;
-    margin-top: 10px;
+    gap: 30px;          /* controla o espaçamento */
+    margin-top: 10px;   /* afasta do logo */
   }
 
   .nav-links a {
-    margin-left: 0;
+    margin-left: 0;     /* remove espaçamento antigo */
   }
 
   .hero-card {
-    width: 95%;
-    max-width: 660px;
-    margin: 375px auto 0;
-    padding: 15px;
+    width: 95%;          /* ocupa menos largura fixa */
+    max-width: 660px;    /* limita tamanho */
+    margin: 375px auto 0; /* mais baixo */
+
+    padding: 15px;       /* reduz espaço interno */
     border-radius: 16px;
   }
 
@@ -368,27 +369,29 @@ body {
 
   .hero-img {
     width: 90%;
-    top: 50%;
+    top: 50%;              /* desce um pouco a imagem */
   }
 
-  .hero-title {
+ .hero-title {
     font-size: 1.5rem;
     margin-bottom: 20px;
     display: flex;
-    justify-content: center;
-    gap: 8px;
-    flex-wrap: nowrap;
-    line-height: 1;
+    justify-content: center; /* centraliza horizontalmente */
+    gap: 8px; /* espaçamento entre as palavras */
+    flex-wrap: nowrap; /* força tudo na mesma linha */
+    line-height: 1; /* ajusta a altura */
   }
 
+    /* remove efeito do <br> só visualmente */
   .hero-title br {
     display: none;
   }
 
+
   .hero-text {
-    height: auto;
+    height: auto;          /* remove os 85vh */
     justify-content: flex-start;
-    margin-top: 10px;
+    margin-top: 10px;      /* controla distância do nav */
     text-align: center;
   }
 
@@ -400,38 +403,31 @@ body {
     padding: 80px 6%;
   }
 
-  /* Apenas o botão do HERO */
   .hero-cta {
     position: relative;
-    transform: none;
+    transform: translateY(120px); /* só o hero */
     z-index: 6;
     justify-content: center;
   }
 
-  .hero-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* centraliza horizontalmente */
-  justify-content: center; /* centraliza verticalmente */
-  gap: 24px; /* espaço entre título, botão e card */
-  z-index: 5;
-  position: relative;
-}
 
-
-  /* Botões de contato / final */
   .cta-group {
     position: relative;
     transform: none;
-    z-index: 1;
+    z-index: 6;
     display: flex;
+      z-index: 1; /* se quiser manter sobreposição normal */
+
     justify-content: center;
   }
 
   .btn.primary {
     transform: none;
   }
+
 }
+
+
 
 @media (max-width: 480px) {
 

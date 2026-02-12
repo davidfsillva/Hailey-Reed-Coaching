@@ -350,11 +350,7 @@ body {
   }
 
   .hero-card {
-    width: 95%;
-    max-width: 660px;
-    margin: 375px auto 0;
-    padding: 15px;
-    border-radius: 16px;
+    margin-top: 24px; /* separa do botão */
   }
 
   .hero-card h3 {
@@ -402,21 +398,19 @@ body {
 
   /* Apenas o botão do HERO */
   .hero-cta {
-    position: relative;
-    transform: none;
-    z-index: 6;
-    justify-content: center;
+    position: relative; /* NÃO absolute */
+    transform: none !important; /* remove deslocamento */
+    margin-top: 16px; /* espaçamento do título */
   }
 
   .hero-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* centraliza horizontalmente */
-  justify-content: center; /* centraliza verticalmente */
-  gap: 24px; /* espaço entre título, botão e card */
-  z-index: 5;
-  position: relative;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza horizontalmente */
+    justify-content: center; /* centraliza verticalmente */
+    gap: 24px; /* espaço entre título, botão e card */
+    position: relative;
+  }
 
 
   /* Botões de contato / final */
