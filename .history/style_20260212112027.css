@@ -418,6 +418,8 @@ body {
     position: relative;
   }
 
+    .cta-group hero-cta {}
+
 
   /* Botões de contato / final */
   .cta-group {
@@ -430,13 +432,6 @@ body {
 
   .btn.primary {
     transform: none;
-  }
-
-  .whatsapp-btn {
-    margin-top: 310px;
-    position: absolute;       /* permite mover livremente */
-    transform: translateX(-50%); /* centraliza exatamente */
-    z-index: 6;               /* acima de imagens e cards */
   }
 }
 
