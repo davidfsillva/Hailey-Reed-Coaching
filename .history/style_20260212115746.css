@@ -351,8 +351,8 @@ body {
 
   .hero-card {
     width: 95%;
-    max-width: 660px;
-    margin: 175px auto 0;
+    max-width: 560px;
+    margin: 375px auto 0;
     padding: 15px;
     border-radius: 16px;
   }
